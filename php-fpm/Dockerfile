@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-alpine
+FROM php:8.2-fpm-alpine
 
 # Install tools required for build stage
 RUN apk add --update --no-cache \
